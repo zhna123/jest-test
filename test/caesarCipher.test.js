@@ -1,4 +1,4 @@
-import { caesarCipher_Encrypt, caesarCipher_Decrypt } from "./caesarCipher";
+import { caesarCipher_Encrypt, caesarCipher_Decrypt } from "../src/caesarCipher";
 
 test ('test caesarCipher encryption', () => {
     expect(caesarCipher_Encrypt('abc,def,g', 1)).toEqual('bcd,efg,h');

@@ -1,4 +1,4 @@
-import analyzeArray from "./analyzeArray";
+import analyzeArray from "../src/analyzeArray";
 
 test ('analyzing array of numbers return an object with the information of the array', () => {
     expect(analyzeArray([1, 8, 3, 4, 2, 6])).toEqual({

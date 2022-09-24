@@ -1,4 +1,4 @@
-import capitalize from "./capitalize";
+import capitalize from "../src/capitalize";
 
 test ('capitalize first character of a string"', () => {
     expect(capitalize('hello')).toEqual('Hello');

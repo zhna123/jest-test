@@ -1,4 +1,4 @@
-import reverse from "./reverse";
+import reverse from "../src/reverse";
 
 test ('reverse a string', () => {
     expect(reverse('hello')).toEqual('olleh');
